@@ -2,7 +2,7 @@ import React from "react"
 import Img from "gatsby-image"
 import useInstagram from "../hooks/use-instagram"
 import Heart from "./heart"
-import "./style.css"
+import "./style.css"     
 
 const Instagram = () => {
   const nodes = useInstagram()

@@ -4,7 +4,7 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
+    siteTitleAlt: `AROMA INSIDER | FRAGRANCES & MORE`,
   },
   plugins: [
     {
@@ -12,9 +12,9 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Projects`, slug: `/projects` },
-          { name: `Instagram`, slug: `/instagram` },
-          { name: `About`, slug: `/about` },
+          { name: `SERVICES`, slug: `/projects` },
+          { name: `INSTAGRAM`, slug: `/instagram` },
+          //{ name: `About`, slug: `/about` },
         ],
       },
     },
@@ -27,7 +27,7 @@ module.exports = {
     {
       resolve: `gatsby-source-instagram`,
       options: {
-        username: `2315642426`,
+        username: `26569757626`,
       },
     },
     `gatsby-plugin-sitemap`,
@@ -48,7 +48,7 @@ module.exports = {
             type: `image/png`,
           },
           {
-            src: `/android-chrome-512x512.png`,
+            src: `/android-chrome-192x192.png`,
             sizes: `512x512`,
             type: `image/png`,
           },
